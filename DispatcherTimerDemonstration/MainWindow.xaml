@@ -1,0 +1,14 @@
+﻿<Window x:Name="myWindow" x:Class="DispatcherTimerDemonstration.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DispatcherTimerDemonstration"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" SizeToContent="WidthAndHeight">
+    <Grid x:Name="myGrid">
+        <Label x:Name="lblDemo" Content="00" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" FontSize="40"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="10,78,0,0" VerticalAlignment="Top" FontSize="40" Click="btnStart_Click"/>
+        <Ellipse x:Name="eMove" HorizontalAlignment="Left" Height="100" Margin="10,217,0,0" Stroke="Black" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
